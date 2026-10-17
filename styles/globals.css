@@ -1,0 +1,68 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style-type: none;
+}
+/* fonts */
+@font-face {
+   font-family: "yekan";
+   src: url("../public/fonts/Yekan.ttf");
+}
+/*
+@font-face {
+   font-family: "iransansr";
+   src: url("../public/fonts/IRANSansX-Regular.ttf");
+}
+@font-face {
+   font-family: "iransansb";
+   src: url("../public/fonts/IRANSansX-Bold.ttf");
+}
+*/
+body {
+   background: rgb(243 244 246);
+   font-family: "Yekan", sans-serif;
+   /*font-family: "iransansr", sans-serif;*/
+   direction: rtl;
+}
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 16px;
+}
+.col {
+   width: 100%;
+   padding: 16px;
+}
+.section {
+   padding: 16px 0;
+}
+.link a{
+ text-decoration: none;
+   color: rgb(58, 57, 57);
+}
+@media screen and (min-width: 576px) {
+   .col {
+      width: 100%;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .col {
+      width: 50%;
+   }
+}
+@media screen and (min-width: 992px) {
+   .col {
+      width: 33.33%;
+   }
+}
+@media screen and (min-width: 1200px) {
+   .col {
+      width: 25%;
+   }
+}

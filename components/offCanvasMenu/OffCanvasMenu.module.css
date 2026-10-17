@@ -1,0 +1,27 @@
+.submenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    padding: 30px 20px;
+}
+
+.submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: black;
+}

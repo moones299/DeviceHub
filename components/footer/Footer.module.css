@@ -1,0 +1,28 @@
+.footer {
+   padding: 16px 0;
+   border-top: 3px double rgb(208, 208, 208);
+}
+.footer ul li {
+   color: rgb(73, 73, 73);
+   font-size: 14px;
+   margin: 5px 0;
+    cursor: pointer;
+   transition: all 0.3s ease;
+  
+}
+.footer ul:not(.socials ul) li:hover {
+    color: rgb(243, 70, 104);
+    list-style: disc;
+}
+.socials ul {
+   padding: 10px 0;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.socials ul li{
+    cursor: pointer;
+}
+.socials ul li:hover{
+    transform: scale(1.07);
+}

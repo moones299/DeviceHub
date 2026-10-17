@@ -1,0 +1,36 @@
+.navbar{
+     background-color: rgb(255, 255, 255);
+   border-bottom: 1px solid rgb(228, 228, 228);
+}
+.navbar ul{
+    display: flex;
+   list-style: none;
+    align-items: center;
+   padding: 20px 0;
+}
+.navbar ul li{
+    padding: 0 15px;
+}
+.navbar ul li a{
+     display: inline-block;
+    text-decoration: none;
+    color:  rgb(58, 57, 57);
+    transition: all 0.3s ease;
+
+}
+.navbar ul li a:hover{
+    transform: scale(1.1);
+   color: rgb(17, 17, 17);
+}
+.navbar ul li:nth-child(1) {
+   display: none;
+}
+.navbar ul li:nth-child(1) svg {
+   vertical-align: sub;
+}
+@media screen and ( max-width:992px ) {
+     .navbar ul li:nth-child(1) {
+       display: block;
+    }
+    
+}

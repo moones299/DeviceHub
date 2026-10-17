@@ -1,0 +1,30 @@
+.menubar{
+     background-color: rgb(255, 255, 255);
+   border-bottom: 1px solid rgb(212, 211, 211);
+}
+.menubar ul{
+    display: flex;
+   align-items: center;
+}
+.menubar ul li{
+     padding: 20px 15px;
+   display: flex;
+   align-items: center;
+   gap: 3px;
+}
+.menubar ul li a{
+    text-decoration: none;
+   color: rgb(58, 57, 57);
+   font-size: 14px;
+
+}
+.menubar ul li a:hover{
+   color: rgb(17, 17, 17);
+   font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+   .menubar {
+      display: none;
+   }
+}

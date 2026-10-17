@@ -1,0 +1,15 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 16px;
+}
+.search{
+    all: unset;
+    padding: 10px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    background: #fff;
+    width: 500px;
+}
